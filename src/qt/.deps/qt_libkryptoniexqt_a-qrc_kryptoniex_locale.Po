@@ -1,0 +1,4 @@
+qt/qt_libkryptoniexqt_a-qrc_kryptoniex_locale.o: \
+ qt/qrc_kryptoniex_locale.cpp /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

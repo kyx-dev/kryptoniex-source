@@ -1,0 +1,22 @@
+[Unit]
+Description=KRYPTONIEX's distributed currency daemon
+After=network.target
+
+[Service]
+User=kryptoniexcore
+Group=kryptoniexcore
+
+Type=forking
+PIDFile=/var/lib/kryptoniexd/kryptoniexd.pid
+ExecStart=/usr/bin/kryptoniexd -daemon -pid=/var/lib/kryptoniexd/kryptoniexd.pid \
+-conf=/etc/kryptoniexcore/kryptoniex.conf -datadir=/var/lib/kryptoniexd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

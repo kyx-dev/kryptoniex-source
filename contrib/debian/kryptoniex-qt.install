@@ -1,0 +1,6 @@
+usr/local/bin/kryptoniex-qt usr/bin
+share/pixmaps/kryptoniex32.xpm usr/share/pixmaps
+share/pixmaps/kryptoniex16.xpm usr/share/pixmaps
+share/pixmaps/kryptoniex128.png usr/share/pixmaps
+debian/kryptoniex-qt.desktop usr/share/applications
+debian/kryptoniex-qt.protocol usr/share/kde4/services/

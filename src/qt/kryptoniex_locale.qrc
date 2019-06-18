@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/kryptoniex_bg.qm</file>
+        <file alias="de">locale/kryptoniex_de.qm</file>
+        <file alias="en">locale/kryptoniex_en.qm</file>
+        <file alias="es">locale/kryptoniex_es.qm</file>
+        <file alias="fi">locale/kryptoniex_fi.qm</file>
+        <file alias="fr">locale/kryptoniex_fr.qm</file>
+        <file alias="it">locale/kryptoniex_it.qm</file>
+        <file alias="ja">locale/kryptoniex_ja.qm</file>
+        <file alias="nl">locale/kryptoniex_nl.qm</file>
+        <file alias="pl">locale/kryptoniex_pl.qm</file>
+        <file alias="pt">locale/kryptoniex_pt.qm</file>
+        <file alias="ru">locale/kryptoniex_ru.qm</file>
+        <file alias="sk">locale/kryptoniex_sk.qm</file>
+        <file alias="sv">locale/kryptoniex_sv.qm</file>
+        <file alias="vi">locale/kryptoniex_vi.qm</file>
+        <file alias="zh_CN">locale/kryptoniex_zh_CN.qm</file>
+        <file alias="zh_TW">locale/kryptoniex_zh_TW.qm</file>
+    </qresource>
+</RCC>
